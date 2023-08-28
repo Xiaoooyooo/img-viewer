@@ -1,0 +1,26 @@
+{
+  "name": "img-viewer",
+  "version": "1.0.0",
+  "description": "A simple tool for viewing image elements on a page more conveniently",
+  "scripts": {
+    "build": "rollup --config",
+    "dev": "rollup --config --watch"
+  },
+  "keywords": [
+    "img",
+    "image",
+    "view",
+    "preview"
+  ],
+  "files": ["dist"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "xiao <xiaoooyooo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.18.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
